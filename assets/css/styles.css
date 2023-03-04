@@ -81,3 +81,14 @@ input[type="submit"]:hover {
     font-family: 'Finger Paint', cursive;
     margin-block: 0 1rem;
 }
+
+.g-recaptcha {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.g-recaptcha iframe {
+    max-height: 76px;
+    max-width: 300px;
+    border-radius: 5px;
+}
